@@ -24,8 +24,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+      backgroundColor: Colors.pink,
       body: Center(
-        child: Text('E - SHOP',style: TextStyle(fontSize: 23,fontWeight: FontWeight.bold),), // Loading indicator
+        child: Text('E - SHOP',style: TextStyle(fontSize: 23,fontWeight: FontWeight.bold,color: Colors.white),), // Loading indicator
       ),
     );
   }
